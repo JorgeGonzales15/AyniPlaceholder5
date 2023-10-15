@@ -1,0 +1,182 @@
+{
+    "sales": [
+      {
+        "id": 1,
+        "product": "Papa",
+        "quantity": 2,
+        "date": "2018-09-09",
+        "method": "credit"
+      },
+      {
+        "product": "Arveja",
+        "quantity": 2,
+        "date": "2023-09-05T05:00:00.000Z",
+        "method": "Credito",
+        "id": 2
+      },
+      {
+        "product": "Camote",
+        "quantity": 2,
+        "date": "2023-09-07T05:00:00.000Z",
+        "method": "Credito",
+        "id": 3
+      }
+    ],
+    "crops": [
+      {
+        "undergrowth": true,
+        "fertilize": true,
+        "oxygenate": false,
+        "lines": true,
+        "holes": true,
+        "watered": 12,
+        "pestcleaning": 30,
+        "id": 1
+      },
+      {
+        "undergrowth": true,
+        "fertilize": false,
+        "oxygenate": false,
+        "lines": true,
+        "holes": true,
+        "watered": 10,
+        "pestcleaning": 15,
+        "id": 2
+      }
+    ],
+    "payments": [
+      {
+        "ordered_date": "2023-05-09",
+        "order_detail": {
+          "quantity": 20,
+          "product": {
+            "name": "Papas",
+            "unit_price": 1.5
+          }
+        },
+        "payment_method": {
+          "name": "mastercard"
+        }
+      },
+      {
+        "ordered_date": "2023-05-09",
+        "order_detail": {
+          "quantity": 20,
+          "product": {
+            "name": "Camotes",
+            "unit_price": 1.5
+          }
+        },
+        "payment_method": {
+          "name": "mastercard"
+        }
+      },
+      {
+        "ordered_date": "2023-05-09",
+        "order_detail": {
+          "quantity": 20,
+          "product": {
+            "name": "Quinua",
+            "unit_price": 1.5
+          }
+        },
+        "payment_method": {
+          "name": "mastercard"
+        }
+      }
+    ],
+    "orders": [
+        {
+          "ordered_date": "2020-05-09",
+          "ordered_state": "Packaging",
+          "quantity": 30,
+          "username": "MariaGracia",
+          "image_url": "https://github.com/upc-pre-202302-GreatMinds-SW51/Informe-Final_OpenSource/assets/104078975/ba25949b-769e-4fb1-8e3b-f5f0d9612f3d",
+          "product": {
+            "name": "Manzanas Frescas",
+            "description": "Deliciosas manzanas frescas, cosechadas en nuestro huerto local. Perfectas para bocadillos saludables o repostería.",
+            "unit_price": 1.5,
+            "image_url": "https://user-images.githubusercontent.com/104078975/270424147-027de51b-6b9d-4722-b060-e7bdffdc2d48.jpg"
+          }
+        },
+        {
+          "ordered_date": "2020-05-10",
+          "ordered_state": "Shipped",
+          "quantity": 20,
+          "username": "CarlosGomez",
+          "image_url": "https://github.com/upc-pre-202302-GreatMinds-SW51/Informe-Final_OpenSource/assets/104078975/902aaff2-25ba-4b72-8bb5-511474ef9275",
+          "product": {
+            "name": "Duraznos Maduros",
+            "description": "Deliciosos duraznos maduros, directamente de nuestro huerto a tu mesa. Ideales para postres y conservas.",
+            "unit_price": 2.0,
+            "image_url": "https://github.com/upc-pre-202302-GreatMinds-SW51/Informe-Final_OpenSource/assets/104078975/00bd8b2c-f1ee-4c85-a4ba-cd13e619bce2"
+          }
+        },
+        {
+          "ordered_date": "2020-05-11",
+          "ordered_state": "Delivered",
+          "quantity": 25,
+          "username": "AnaLopez",
+          "image_url": "https://github.com/upc-pre-202302-GreatMinds-SW51/Informe-Final_OpenSource/assets/104078975/c7a74c58-1c0a-4f4b-882e-2a80c6cfe86f",
+          "product": {
+            "name": "Uvas Frescas",
+            "description": "Uvas frescas y jugosas, seleccionadas a mano. Perfectas para disfrutar solas o en ensaladas.",
+            "unit_price": 1.8,
+            "image_url": "https://github.com/upc-pre-202302-GreatMinds-SW51/Informe-Final_OpenSource/assets/104078975/3a5a04b4-845c-44b7-a64b-d1d25384d6f5"
+          }
+        },
+        {
+          "ordered_date": "2020-05-12",
+          "ordered_state": "Returned",
+          "quantity": 10,
+          "username": "PabloMartinez",
+          "image_url": "https://github.com/upc-pre-202302-GreatMinds-SW51/Informe-Final_OpenSource/assets/104078975/f7a43fc7-f100-4888-9443-9e7a615ca4a5",
+          "product": {
+            "name": "Peras Jugosas",
+            "description": "Peras jugosas y dulces, cultivadas con amor. Perfectas para meriendas y postres.",
+            "unit_price": 1.7,
+            "image_url": "https://github.com/upc-pre-202302-GreatMinds-SW51/Informe-Final_OpenSource/assets/104078975/73e0a695-99e2-43c0-bcbf-139928cc050e"
+          }
+        },
+        {
+          "ordered_date": "2020-05-13",
+          "ordered_state": "Packaging",
+          "quantity": 30,
+          "username": "LuisaGonzalez",
+          "image_url": "https://github.com/upc-pre-202302-GreatMinds-SW51/Informe-Final_OpenSource/assets/104078975/959f016a-9c2e-4201-8bd7-864167a51a0b",
+          "product": {
+            "name": "Miel de Abeja Pura",
+            "description": "Miel dorada y natural de nuestras colmenas. Endulza tus bebidas y comidas de manera saludable.",
+            "unit_price": 1.5,
+            "image_url": "https://github.com/upc-pre-202302-GreatMinds-SW51/Informe-Final_OpenSource/assets/104078975/1748254e-f2ff-4acd-9efd-4dfa2f05ef59"
+          }
+        }
+      ],
+      "products": [
+        {
+          "name": "Papas",
+          "description": "Papas haradas durante bastante tiempo",
+          "unit_price": 1.5,
+          "image_url": "https://github.com/upc-pre-202302-GreatMinds-SW51/Informe-Final_OpenSource/assets/104078975/314907cc-017a-4171-863c-ed06fc7da8e3"
+        },
+        {
+          "name": "Cerezos",
+          "description": "Cereza recontra roja",
+          "unit_price": 2.5,
+          "image_url": "https://github.com/upc-pre-202302-GreatMinds-SW51/Informe-Final_OpenSource/assets/104078975/3a5a04b4-845c-44b7-a64b-d1d25384d6f5"
+        },
+        {
+          "name": "Arroz",
+          "description": "Arroz bien plantado",
+          "unit_price": 1.5,
+          "image_url": "https://github.com/upc-pre-202302-GreatMinds-SW51/Informe-Final_OpenSource/assets/104078975/802a1e03-96c1-44da-991f-b94bda0d76d2"
+        },
+        {
+          "name": "Tomates",
+          "description": "Tomates frescos del huerto",
+          "unit_price": 1.2,
+          "image_url": "https://github.com/upc-pre-202302-GreatMinds-SW51/Informe-Final_OpenSource/assets/104078975/f18c776d-a4ae-4e96-af1c-d0ec8e5ebe33"
+        }
+      ]
+    }
+    
